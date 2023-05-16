@@ -15,6 +15,21 @@ public class main {
             System.out.println("# To execute a package command, just type:      #");
             System.out.println("# //CMD.Package(<name>).Execute(<command>)      #");
             System.out.println("#################################################");
+            
+            System.out.println(">> Input here");
+            
+            String choice = scanner.nextLine();
+            
+            switch () {
+                case "//CMD.Package().Install()":
+                    break;
+                case "//CMD.Package().Unstall()":
+                    break;
+                case "//CMD.Package().Execute()":
+                    break;
+                default:
+                    System.out.println("Invalid command");
+            }
         }
     }
 }
